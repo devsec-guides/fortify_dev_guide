@@ -1,14 +1,26 @@
 # Overview
-With the Fortify Extension for Visual Studio Code you have three ways to scan your project for security vulnerabilities.
 
-- Run a locally installed version of Fortify Static Code analyzer on the currently opened project to create an FPR. Open the FPR in Fortify Audit Workbench to view the results.
+The Fortify extension for Visual Studio Code is a tool that allows developers to easily integrate security testing into their development workflow. It provides an easy-to-use interface for running scans on their code using Micro Focus Fortify, a leading application security testing tool.
 
-- Run a remote translation and scan using Fortify ScanCentral. You can upload the results to Fortify Software Security Center.
+The extension provides a variety of scan options, including the ability to run scans locally using the Fortify Audit Workbench or remotely using Fortify on Demand or Fortify Software Security Center.
 
-- Upload your project to Fortify on Demand for assessment.
-
+By providing an easy way to integrate security testing into the development process, the Fortify extension for Visual Studio Code helps developers build more secure code and reduce the risk of security vulnerabilities in their applications.
 
 # Installing Fortify Extension
+
+**Prerequisites**
+
+- Visual Studio Code (VSCode) version 1.50 or later
+- Fortify Static Code Analyzer - for local scans
+- Scan Central Client - for packing source code and offloading scans
+- A Fortify account with access to Fortify on Demand (FoD) or Fortify Software Security Center (SSC)
+
+**Installation Steps**
+
+1. Open Visual Studio Code and go to the Extensions view by selecting the Extensions icon on the Activity Bar or by pressing Ctrl+Shift+X (Cmd+Shift+X on Mac).
+2. In the Extensions view, search for "Fortify" and select the "Fortify Extension for Visual Studio Code" from the list of results.
+3. Click the Install button to begin the installation process.
+4. Once the installation is complete, click the Reload button to activate the extension.
 
 # Tutorial
 
