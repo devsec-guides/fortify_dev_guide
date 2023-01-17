@@ -8,7 +8,7 @@ nav:
 
   - IDE: 
     - IntelliJ: 'integrations/ide/intellij.md'
-    - Visual Studio: 'integrations/ide/vscode.md'
+    - Visual Studio Code: 'integrations/ide/vscode.md'
 
   - BugTracking:
     - Azure Devops: 'integrations/bugtracking/ado.md'

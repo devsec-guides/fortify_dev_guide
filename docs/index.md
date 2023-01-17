@@ -1,17 +1,11 @@
-# Welcome to MkDocs
+# Fortify DevOps Guide - 22.2
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
+This guide is meant to provide guidance and demonstrations on how to use the Fortify software in a developer environment.
 
-## Commands
+Use the navigation links on the left hand side for tutorials.
 
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
+For the full documentation including requirements visit the links below
 
-## Project layout
+- [Fortify Static Code Analyzer and Tools 22.2.x Documentation](https://www.microfocus.com/documentation/fortify-static-code-analyzer-and-tools/)
 
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+- [ScanCentral DAST](https://www.microfocus.com/documentation/fortify-ScanCentral-DAST/)
