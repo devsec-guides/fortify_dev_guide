@@ -1,0 +1,21 @@
+site_name: Fortify DevOps Guide
+theme: material
+nav:
+  - Home: 'index.md'
+  - CI/CD: 
+    - Gitlab: 'integrations/cicd/gitlab.md'
+    - Jenkins: 'integrations/cicd/jenkins.md'
+
+  - IDE: 
+    - IntelliJ: 'integrations/ide/intellij.md'
+    - Visual Studio: 'integrations/ide/vscode.md'
+
+  - BugTracking:
+    - Azure Devops: 'integrations/bugtracking/ado.md'
+    - GitLab Security Dashboard: 'integrations/bugtracking/gitlab.md'
+    - Jira: 'integrations/bugtracking/jira.md'
+
+
+markdown_extensions:
+    - toc:
+        baselevel: 3
