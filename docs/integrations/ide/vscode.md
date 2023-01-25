@@ -6,6 +6,10 @@ The extension provides a variety of scan options, including the ability to run s
 
 By providing an easy way to integrate security testing into the development process, the Fortify extension for Visual Studio Code helps developers build more secure code and reduce the risk of security vulnerabilities in their applications.
 
+See the video below on how to use the VSCode Fortify Extension
+
+![type:video](https://www.youtube.com/embed/6O_kN02pPrU)
+
 # Installing Fortify Extension
 
 **Prerequisites**
@@ -32,3 +36,4 @@ By providing an easy way to integrate security testing into the development proc
 
 # FAQ
 - How to install the Fortify extension for VSCode
+

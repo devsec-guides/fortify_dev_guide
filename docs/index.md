@@ -28,3 +28,16 @@ For the full documentation including requirements visit the links below
 - [Fortify Static Code Analyzer and Tools 22.2.x Documentation](https://www.microfocus.com/documentation/fortify-static-code-analyzer-and-tools/)
 
 - [ScanCentral DAST](https://www.microfocus.com/documentation/fortify-ScanCentral-DAST/)
+
+``` mermaid
+sequenceDiagram
+  autonumber
+  Alice->>John: Hello John, how are you?
+  loop Healthcheck
+      John->>John: Fight against hypochondria
+  end
+  Note right of John: Rational thoughts!
+  John-->>Alice: Great!
+  John->>Bob: How about you?
+  Bob-->>John: Jolly good!
+```
