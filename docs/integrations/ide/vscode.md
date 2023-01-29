@@ -1,4 +1,4 @@
-# Overview
+# Visual Studio Code
 
 The Fortify extension for Visual Studio Code is a tool that allows developers to easily integrate security testing into their development workflow. It provides an easy-to-use interface for running scans on their code using Micro Focus Fortify, a leading application security testing tool.
 
@@ -10,7 +10,7 @@ See the video below on how to use the VSCode Fortify Extension
 
 ![type:video](https://www.youtube.com/embed/6O_kN02pPrU)
 
-# Installing Fortify Extension
+## Installing Fortify Extension
 
 **Prerequisites**
 
@@ -26,7 +26,7 @@ See the video below on how to use the VSCode Fortify Extension
 3. Click the Install button to begin the installation process.
 4. Once the installation is complete, click the Reload button to activate the extension.
 
-# Tutorial
+## Tutorial
 
 ## Local Scan
 
@@ -34,6 +34,6 @@ See the video below on how to use the VSCode Fortify Extension
 
 ## Fortify OnDemand
 
-# FAQ
+## FAQ
 - How to install the Fortify extension for VSCode
 

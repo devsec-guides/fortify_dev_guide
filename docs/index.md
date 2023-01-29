@@ -2,7 +2,7 @@
 
 This guide is meant to provide guidance and demonstrations on how to use the Fortify software in a developer environment.
 
-# What is Fortify
+## What is Fortify
 
 Microfocus **Fortify** is a comprehensive set of tools for software security that includes both static and dynamic analysis capabilities.
 
@@ -10,7 +10,7 @@ Microfocus **Fortify** is a comprehensive set of tools for software security tha
 
 **Dynamic analysis**, on the other hand, involves executing the code and analyzing its behavior at runtime. Fortify provides dynamic analysis tools, such as ScanCentral DAST as WebInspect (Dynamic Application Security Testing) that can identify issues.
 
-# Deployment Solutions
+## Deployment Solutions
 
 - **Fortify OnPremise** is installed and run on the customer's own infrastructure
 
@@ -20,7 +20,7 @@ Microfocus **Fortify** is a comprehensive set of tools for software security tha
 
 Regardless of the deployment solution, Fortify is designed to help developers identify and fix vulnerabilities in their code, and offer a wide range of capabilities and features to support secure software development.
 
-# Next
+## Next
 Use the navigation links on the left hand side for tutorials.
 
 For the full documentation including requirements visit the links below
@@ -29,15 +29,3 @@ For the full documentation including requirements visit the links below
 
 - [ScanCentral DAST](https://www.microfocus.com/documentation/fortify-ScanCentral-DAST/)
 
-``` mermaid
-sequenceDiagram
-  autonumber
-  Alice->>John: Hello John, how are you?
-  loop Healthcheck
-      John->>John: Fight against hypochondria
-  end
-  Note right of John: Rational thoughts!
-  John-->>Alice: Great!
-  John->>Bob: How about you?
-  Bob-->>John: Jolly good!
-```

@@ -1,30 +1,74 @@
 site_name: Fortify DevOps Guide
-theme: cerulean
-nav:
-  - Home: 'index.md'
-  - CI/CD: 
-    - Gitlab: 'integrations/cicd/gitlab.md'
-    - Github: 'integrations/cicd/github.md'
-    - Jenkins: 'integrations/cicd/jenkins.md'
+theme:
+  name: material
+  logo: assets/logo-fortify.png
+  favicon: assets/logo-fortify.png
+  palette:
+    - scheme: default
+      primary: blue
+      toggle:
+        icon: material/brightness-7 
+        name: Switch to dark mode
 
-  - IDE: 
-    - IntelliJ: 'integrations/ide/intellij.md'
-    - Visual Studio Code: 'integrations/ide/vscode.md'
-
-  - BugTracking:
-    - Azure Devops: 'integrations/bugtracking/ado.md'
-    - GitLab Security Dashboard: 'integrations/bugtracking/gitlab.md'
-    - Jira: 'integrations/bugtracking/jira.md'
-
-
+    # Palette toggle for dark mode
+    - scheme: slate
+      primary: blue
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+  features:
+    - content.code.annotate
+    - content.code.copy
+    - content.tabs.link
+    - content.tooltips
+    - navigation.instant
+    - navigation.tracking
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.sections
+    - navigation.expand
+    - navigation.indexes
+    - navigation.top
+    - search.suggest
+    - search.highlight
+    - toc.follow
+    
 markdown_extensions:
-    - attr_list
-    - md_in_html
-    - pymdownx.superfences:
-        custom_fences:
-          - name: mermaid
-            class: mermaid
-            format: !!python/name:pymdownx.superfences.fence_code_format
+  - admonition
+  - attr_list
+  - md_in_html
+  - pymdownx.details
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true 
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - toc:
+      permalink: true
+      title: Table Of Contents
 
 plugins:
-    - mkdocs-video
+  - mkdocs-video
+  - glightbox
+  - search
+nav:
+  - Home: 'index.md'
+  - Solutions:
+    - solutions/overview.md
+    - Fortfy OnPremise: 'solutions/onpremise.md'
+    - Fortify OnDemand: 'solutions/fod.md'
+  - Integrations:
+    - BugTracking:
+      - Azure Devops: 'integrations/bugtracking/ado.md'
+      - GitLab Security Dashboard: 'integrations/bugtracking/gitlab.md'
+      - Jira: 'integrations/bugtracking/jira.md'
+    - CI/CD: 
+      - Gitlab: 'integrations/cicd/gitlab.md'
+      - Github: 'integrations/cicd/github.md'
+      - Jenkins: 'integrations/cicd/jenkins.md'
+    - IDE: 
+      - Eclipse: 'integrations/ide/eclipse.md'
+      - IntelliJ: 'integrations/ide/intellij.md'
+      - Visual Studio Code: 'integrations/ide/vscode.md'
