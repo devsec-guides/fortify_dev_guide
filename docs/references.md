@@ -2,50 +2,57 @@
 Here you will find additional links and references
 
 ## Software
-[Audit Assistant OnPremise](https://www.microfocus.com/documentation/fortify-audit-assistant-on-premise/)
+:fortify-cyberres: [Audit Assistant OnPremise](https://www.microfocus.com/documentation/fortify-audit-assistant-on-premise/){:target="_blank"}
 
-[Software Security Center](https://www.microfocus.com/documentation/fortify-software-security-center/)
+:fortify-cyberres: [Software Security Center](https://www.microfocus.com/documentation/fortify-software-security-center/){:target="_blank"}
 
-[Static Code Analyzer](https://www.microfocus.com/documentation/fortify-static-code/)
+:fortify-cyberres: [Static Code Analyzer](https://www.microfocus.com/documentation/fortify-static-code/){:target="_blank"}
 
-[WebInspect](https://www.microfocus.com/documentation/fortify-webinspect/)
+:fortify-cyberres: [WebInspect](https://www.microfocus.com/documentation/fortify-webinspect/){:target="_blank"}
 
-[Scan Central DAST](https://www.microfocus.com/documentation/fortify-ScanCentral-DAST/)
+:fortify-cyberres: [Scan Central DAST](https://www.microfocus.com/documentation/fortify-ScanCentral-DAST/){:target="_blank"}
 
 ## CI/CD Plugins
-:material-microsoft-azure-devops: [Azure DevOps](https://www.microfocus.com/documentation/fortify-azure-devops-extension/)
+??? note
+    Below are native integrations. See the [repos](http://127.0.0.1:8000/references/#repositories) for other solutions to integrate into your CI/CD where a native plugin may not exist yet. **Fortify CLI** is a recommended repo to use
 
-:simple-bamboo: [Bamboo](https://www.microfocus.com/documentation/fortify-plugin-for-bamboo/)
+:simple-azurepipelines: [Azure DevOps](https://www.microfocus.com/documentation/fortify-azure-devops-extension/){:target="_blank"}
 
-:simple-jenkins: [Jenkins](https://www.microfocus.com/documentation/fortify-jenkins-plugin/)
+:material-github: [Github](https://github.com/marketplace?type=actions&query=fortify+){:target="_blank"}
 
-:simple-jenkins: [Jenkins - FOD](https://www.microfocus.com/documentation/fortify-on-demand-jenkins-plugin/)
+:simple-gitlab: [Gitlab](){:target="_blank"}
+
+:simple-bamboo: [Bamboo](https://www.microfocus.com/documentation/fortify-plugin-for-bamboo/){:target="_blank"}
+
+:simple-jenkins: [Jenkins](https://www.microfocus.com/documentation/fortify-jenkins-plugin/){:target="_blank"}
+
+:simple-jenkins: [Jenkins - FOD](https://www.microfocus.com/documentation/fortify-on-demand-jenkins-plugin/){:target="_blank"}
 
 ## IDE Plugins
 
-:simple-eclipseide: [Eclipse - Remediation Plugin](https://www.microfocus.com/documentation/fortify-remediation-plugin-for-eclipse/)
+:simple-eclipseide: [Eclipse - Remediation Plugin](https://www.microfocus.com/documentation/fortify-remediation-plugin-for-eclipse/){:target="_blank"}
 
-:simple-eclipseide: [Eclipse - Security Assistant](https://www.microfocus.com/documentation/fortify-security-assistant-plugin-for-eclipse/)
+:simple-eclipseide: [Eclipse - Security Assistant](https://www.microfocus.com/documentation/fortify-security-assistant-plugin-for-eclipse/){:target="_blank"}
 
-:simple-intellijidea: [IntelliJ and Android Studio](https://www.microfocus.com/documentation/fortify-remediation-plugin-for-intellij-and-android-studio/)
+:simple-intellijidea: [IntelliJ and Android Studio](https://www.microfocus.com/documentation/fortify-remediation-plugin-for-intellij-and-android-studio/){:target="_blank"}
 
-:simple-intellijidea: [IntelliJ and Android Studio - Security Assistant](https://www.microfocus.com/documentation/fortify-security-assistant-plugin-for-intelliJ/)
+:simple-intellijidea: [IntelliJ and Android Studio - Security Assistant](https://www.microfocus.com/documentation/fortify-security-assistant-plugin-for-intelliJ/){:target="_blank"}
 
-:material-microsoft-visual-studio: [Visual Studio Code](https://www.microfocus.com/documentation/fortify-visual-studio-code/)
+:material-microsoft-visual-studio: [Visual Studio Code](https://www.microfocus.com/documentation/fortify-visual-studio-code/){:target="_blank"}
 
-:material-microsoft-visual-studio: [Visual Studio Code - Security Assistant](https://www.microfocus.com/documentation/fortify-security-assistant-plugin-for-visual-studio/)
+:material-microsoft-visual-studio: [Visual Studio Code - Security Assistant](https://www.microfocus.com/documentation/fortify-security-assistant-plugin-for-visual-studio/){:target="_blank"}
 
 ## Repositories
 Below are some of Fortify repositories that you may find helpful for your workflows
 
-:material-source-repository: [Tools Installer](https://github.com/fortify/FortifyToolsInstaller)
+:material-source-repository: [Tools Installer](https://github.com/fortify/FortifyToolsInstaller){:target="_blank"}
 
-:material-source-repository: [Fortify CLI](https://github.com/fortify-ps/fcli)
+:material-source-repository: [Fortify CLI](https://github.com/fortify-ps/fcli){:target="_blank"}
 
-:material-source-repository: [Bug Tracker Utility](https://github.com/fortify-ps/FortifyBugTrackerUtility)
+:material-source-repository: [Bug Tracker Utility](https://github.com/fortify-ps/FortifyBugTrackerUtility){:target="_blank"}
 
-:material-source-repository: [Vulnerability Exporter](https://github.com/fortify/FortifyVulnerabilityExporter)
+:material-source-repository: [Vulnerability Exporter](https://github.com/fortify/FortifyVulnerabilityExporter){:target="_blank"}
 
-:material-source-repository: [Cloud DevSecOps Templates](https://github.com/fortify/CloudDevSecOpsTemplates)
+:material-source-repository: [Cloud DevSecOps Templates](https://github.com/fortify/CloudDevSecOpsTemplates){:target="_blank"}
 
-:material-source-repository: [Helm Charts](https://github.com/fortify/helm3-charts)
+:material-source-repository: [Helm Charts](https://github.com/fortify/helm3-charts){:target="_blank"}

@@ -1,4 +1,4 @@
-# Visual Studio Code
+# :material-microsoft-visual-studio: Visual Studio Code
 
 The Fortify extension for Visual Studio Code is a tool that allows developers to easily integrate security testing into their development workflow. It provides an easy-to-use interface for running scans on their code using Micro Focus Fortify, a leading application security testing tool.
 

@@ -1,6 +1,7 @@
 site_name: Fortify DevOps Guide
 theme:
   name: material
+  custom_dir: overrides
   logo: assets/logo-fortify.png
   favicon: assets/logo-fortify.png
   palette:
@@ -45,6 +46,9 @@ markdown_extensions:
   - pymdownx.emoji:
       emoji_index: !!python/name:materialx.emoji.twemoji
       emoji_generator: !!python/name:materialx.emoji.to_svg
+      options:
+        custom_icons:
+          - overrides/.icons
   - toc:
       permalink: true
       title: Table Of Contents
