@@ -21,17 +21,14 @@ theme:
     - content.code.copy
     - content.tabs.link
     - content.tooltips
-    - navigation.instant
-    - navigation.tracking
-    - navigation.tabs
-    - navigation.tabs.sticky
-    - navigation.sections
-    - navigation.expand
     - navigation.indexes
+    - navigation.instant
+    - navigation.path
+    - navigation.sections
     - navigation.top
-    - search.suggest
+    - navigation.tracking
     - search.highlight
-    - toc.follow
+    - search.suggest
     
 markdown_extensions:
   - admonition
@@ -50,16 +47,17 @@ markdown_extensions:
       title: Table Of Contents
 
 plugins:
-  - mkdocs-video
   - glightbox
+  - mkdocs-video
   - search
 nav:
-  - Home: 'index.md'
+  - Home: index.md
   - Solutions:
-    - solutions/overview.md
+    - solutions/index.md
     - Fortfy OnPremise: 'solutions/onpremise.md'
     - Fortify OnDemand: 'solutions/fod.md'
   - Integrations:
+    - integrations/index.md
     - BugTracking:
       - Azure Devops: 'integrations/bugtracking/ado.md'
       - GitLab Security Dashboard: 'integrations/bugtracking/gitlab.md'
@@ -72,3 +70,4 @@ nav:
       - Eclipse: 'integrations/ide/eclipse.md'
       - IntelliJ: 'integrations/ide/intellij.md'
       - Visual Studio Code: 'integrations/ide/vscode.md'
+  - FAQ: faq.md
