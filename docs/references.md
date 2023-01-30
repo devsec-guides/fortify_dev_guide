@@ -4,9 +4,9 @@ Here you will find additional links and references
 ## Training
 :material-google-classroom: [Cyberres After Hours Training](https://community.microfocus.com/cyberres/fortify/fortify-education-after-hours/f/forum/509597/direct-one-click-quick-access-to-our-free-fortify-digital-learning-offerings/1902189){:target="_blank"}
 
-:material-video: [Code Security Webinars](https://cyberres.swoogo.com/codesecuritywebinarseries)
+:material-video: [Code Security Webinars](https://cyberres.swoogo.com/codesecuritywebinarseries){:target="_blank"}
 
-:simple-youtube: [Fortify Unplugged](https://www.youtube.com/@FortifyUnplugged)
+:simple-youtube: [Fortify Unplugged](https://www.youtube.com/@FortifyUnplugged){:target="_blank"}
 
 ---
 ## Fortify Documentation
