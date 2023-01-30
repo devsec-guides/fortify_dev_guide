@@ -38,7 +38,11 @@ markdown_extensions:
   - pymdownx.details
   - pymdownx.inlinehilite
   - pymdownx.snippets
-  - pymdownx.superfences
+  - pymdownx.superfences:
+      custom_fences:
+          - name: mermaid
+            class: mermaid
+            format: !!python/name:pymdownx.superfences.fence_code_format
   - pymdownx.tabbed:
       alternate_style: true 
   - pymdownx.highlight:
@@ -59,11 +63,11 @@ plugins:
   - search
 nav:
   - Home: index.md
-  - Solutions:
+  - Products:
     - solutions/index.md
-    - Fortfy OnPremise: 'solutions/onpremise.md'
-    - Fortify Hosted: 'solutions/hosted.md'
-    - Fortify OnDemand: 'solutions/fod.md'
+    - Fortfy OnPremise: 'solutions/onpremise_overview.md'
+    - Fortify OnDemand: 'solutions/fod_overview.md'
+
   - Integrations:
     - integrations/index.md
     - BugTracking:

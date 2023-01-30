@@ -1,7 +1,10 @@
 # References
 Here you will find additional links and references
 
+[Cyberres After Hours Training](https://community.microfocus.com/cyberres/fortify/fortify-education-after-hours/f/forum/509597/direct-one-click-quick-access-to-our-free-fortify-digital-learning-offerings/1902189){:target="_blank"}
+
 ## Software
+
 :fortify-cyberres: [Audit Assistant OnPremise](https://www.microfocus.com/documentation/fortify-audit-assistant-on-premise/){:target="_blank"}
 
 :fortify-cyberres: [Software Security Center](https://www.microfocus.com/documentation/fortify-software-security-center/){:target="_blank"}
@@ -12,9 +15,11 @@ Here you will find additional links and references
 
 :fortify-cyberres: [Scan Central DAST](https://www.microfocus.com/documentation/fortify-ScanCentral-DAST/){:target="_blank"}
 
+---
 ## CI/CD Plugins
+
 ??? note
-    Below are native integrations. See the [repos](http://127.0.0.1:8000/references/#repositories) for other solutions to integrate into your CI/CD where a native plugin may not exist yet. **Fortify CLI** is a recommended repo to use
+    Below are native integrations. See the [repos](#repositories) for other solutions to integrate into your CI/CD where a native plugin may not exist yet. **Fortify CLI** is a recommended repo to use
 
 :simple-azurepipelines: [Azure DevOps](https://www.microfocus.com/documentation/fortify-azure-devops-extension/){:target="_blank"}
 
@@ -28,6 +33,7 @@ Here you will find additional links and references
 
 :simple-jenkins: [Jenkins - FOD](https://www.microfocus.com/documentation/fortify-on-demand-jenkins-plugin/){:target="_blank"}
 
+---
 ## IDE Plugins
 
 :simple-eclipseide: [Eclipse - Remediation Plugin](https://www.microfocus.com/documentation/fortify-remediation-plugin-for-eclipse/){:target="_blank"}
@@ -42,6 +48,7 @@ Here you will find additional links and references
 
 :material-microsoft-visual-studio: [Visual Studio Code - Security Assistant](https://www.microfocus.com/documentation/fortify-security-assistant-plugin-for-visual-studio/){:target="_blank"}
 
+---
 ## Repositories
 Below are some of Fortify repositories that you may find helpful for your workflows
 

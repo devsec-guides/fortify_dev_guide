@@ -12,20 +12,17 @@ Microfocus **Fortify** is a comprehensive set of tools for software security tha
 
 ## Deployment Solutions
 
-- **Fortify OnPremise** is installed and run on the customer's own infrastructure
+- **[Fortify OnPremise](solutions/onpremise_overview.md)** is installed and run on the customer's own infrastructure
 
-- **Fortify Hosted** is the cloud-hosted equivalent of Fortify OnPremise with the main difference being that the infrastructre, maintenance, upgrades, etc are managed entirely by MicroFocus.  
+- **[Fortify Hosted](solutions/hosted_overview.md)** is the cloud-hosted equivalent of Fortify OnPremise with the main difference being that the infrastructre, maintenance, upgrades, etc are managed entirely by MicroFocus.  
 
-- **Fortify OnDemand** is a SaaS version of the software that is hosted by Microfocus and can be accessed via the web.
+- **[Fortify OnDemand](solutions/fod_overview.md)** is a SaaS version of the software that is hosted by Microfocus and can be accessed via the web.
 
 Regardless of the deployment solution, Fortify is designed to help developers identify and fix vulnerabilities in their code, and offer a wide range of capabilities and features to support secure software development.
 
+
 ## Next
-Use the navigation links on the left hand side for tutorials.
+Use the navigation links on the left hand side for more information.
 
-For the full documentation including requirements visit the links below
-
-- [Fortify Static Code Analyzer and Tools 22.2.x Documentation](https://www.microfocus.com/documentation/fortify-static-code-analyzer-and-tools/)
-
-- [ScanCentral DAST](https://www.microfocus.com/documentation/fortify-ScanCentral-DAST/)
+See the [References](references.md) for official documentation that does deeper into the Fortify products and tools
 
