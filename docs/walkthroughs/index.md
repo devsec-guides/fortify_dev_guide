@@ -1,5 +1,6 @@
 # Integrations
 
+A number of integrations are supported by 
 **Fortify Bug Tracker Utility** is a tool provided by Microfocus Fortify that allows organizations to integrate their security vulnerability data with their bug tracking systems. This tool supports integration with popular bug tracking systems such as Jira, Bugzilla, and HP Quality Center.
 
 Once integrated, the Fortify Bug Tracker Utility automatically creates new issues in the bug tracking system for each identified vulnerability, and it also updates the status of these issues as the vulnerabilities are fixed. This allows organizations to track the progress of remediation and ensure that all vulnerabilities are addressed in a timely manner.
