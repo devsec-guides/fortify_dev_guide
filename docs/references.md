@@ -1,8 +1,10 @@
 # References
-Here you will find additional links and references
 
----
+## **Fortify 101**
 
+!!! warning ""
+    Here you fill find helpful resources to get you up to speed on the suite of Fortify products and how you can use them to best fit your needs.
+    
 !!! example inline "Training"
 
     :material-google-classroom: [Cyberres After Hours Training](https://community.microfocus.com/cyberres/fortify/fortify-education-after-hours/f/forum/509597/direct-one-click-quick-access-to-our-free-fortify-digital-learning-offerings/1902189){:target="_blank"}
@@ -30,6 +32,11 @@ Here you will find additional links and references
 
     :material-file-document: [Scan Central DAST](https://www.microfocus.com/documentation/fortify-ScanCentral-DAST/){:target="_blank"}
 
+---
+## **Integrations**
+
+!!! warning ""
+    Fortify supports a number of integrations that allow developers and security engineers to incorporate security anywhere within their SDLC
 
 !!! tip inline "CI/CD"
 
@@ -60,6 +67,11 @@ Here you will find additional links and references
 
     :material-microsoft-visual-studio: [Visual Studio Code - Security Assistant](https://www.microfocus.com/documentation/fortify-security-assistant-plugin-for-visual-studio/){:target="_blank"}
 
+---
+## **Command Line Utilities**
+
+!!! warning ""
+    Below you will find repositories that can be used to help custom your workflow (very helpful for automation where native plugins may not currently be availalbe)
 
 !!! example "Repositories"
 
