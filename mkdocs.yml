@@ -68,18 +68,24 @@ nav:
     - solutions/index.md
     - Fortfy OnPremise: 'solutions/onpremise_overview.md'
     - Fortify OnDemand: 'solutions/fod_overview.md'
-  - Walkthroughs:
-    - IDE: 
-      - Eclipse: 'ide/eclipse.md'
-      - IntelliJ: 'ide/intellij.md'
-      - Visual Studio Code: 'ide/vscode.md'
-    - CI/CD: 
-      - Gitlab: 'cicd/gitlab.md'
-      - Github: 'cicd/github.md'
-      - Jenkins: 'cicd/jenkins.md'
-    - BugTracking:
-      - Azure Devops: 'bugtracking/ado.md'
-      - GitLab Security Dashboard: 'bugtracking/gitlab.md'
-      - Jira: 'bugtracking/jira.md'
+  
+  
+
+  - Integrations: 
+    - Eclipse: 'ide/eclipse.md'
+    - IntelliJ: 'ide/intellij.md'
+    - VS Code: 'ide/vscode.md'
+    - Visual Studio: 'ide/visualstudio.md'
+  
+  - CI/CD: 
+    - Gitlab: 'cicd/gitlab.md'
+    - Github: 'cicd/github.md'
+    - Jenkins: 'cicd/jenkins.md'
+  
+  - BugTracking:
+    - Azure Devops: 'bugtracking/ado.md'
+    - GitLab Security Dashboard: 'bugtracking/gitlab.md'
+    - Jira: 'bugtracking/jira.md'
+  
   - References: references.md
   - FAQ: faq.md

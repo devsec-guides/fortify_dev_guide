@@ -79,10 +79,11 @@
 
     :material-source-repository: [Fortify CLI](https://github.com/fortify-ps/fcli){:target="_blank"}
 
-    :material-source-repository: [Bug Tracker Utility](https://github.com/fortify-ps/FortifyBugTrackerUtility){:target="_blank"}
+    :material-source-repository: [Fortify Bug Tracker Utility](https://github.com/fortify-ps/FortifyBugTrackerUtility){:target="_blank"}
 
     :material-source-repository: [Vulnerability Exporter](https://github.com/fortify/FortifyVulnerabilityExporter){:target="_blank"}
 
     :material-source-repository: [Cloud DevSecOps Templates](https://github.com/fortify/CloudDevSecOpsTemplates){:target="_blank"}
 
     :material-source-repository: [Helm Charts](https://github.com/fortify/helm3-charts){:target="_blank"}
+    

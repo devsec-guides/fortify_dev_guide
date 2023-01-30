@@ -8,32 +8,9 @@ By providing an easy way to integrate security testing into the development proc
 
 See the video below on how to use the VSCode Fortify Extension
 
+![type:video](https://www.youtube.com/embed/VT50NDI6SnA)
+
 ![type:video](https://www.youtube.com/embed/6O_kN02pPrU)
 
-## Installing Fortify Extension
 
-**Prerequisites**
-
-- Visual Studio Code (VSCode) version 1.50 or later
-- Fortify Static Code Analyzer - for local scans
-- Scan Central Client - for packing source code and offloading scans
-- A Fortify account with access to Fortify on Demand (FoD) or Fortify Software Security Center (SSC)
-
-**Installation Steps**
-
-1. Open Visual Studio Code and go to the Extensions view by selecting the Extensions icon on the Activity Bar or by pressing Ctrl+Shift+X (Cmd+Shift+X on Mac).
-2. In the Extensions view, search for "Fortify" and select the "Fortify Extension for Visual Studio Code" from the list of results.
-3. Click the Install button to begin the installation process.
-4. Once the installation is complete, click the Reload button to activate the extension.
-
-## Tutorial
-
-## Local Scan
-
-## Scan Central
-
-## Fortify OnDemand
-
-## FAQ
-- How to install the Fortify extension for VSCode
 
