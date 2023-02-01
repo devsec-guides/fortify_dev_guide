@@ -2,17 +2,15 @@
 
 This guide is meant to provide guidance and demonstrations on how to use the Fortify software in a developer environment.
 
-## What is Fortify
+## :fortify-cyberres: <span class="marquee">**What is Fortify**</span>
 
-Microfocus **Fortify** is a comprehensive set of tools for software security that includes both static and dynamic analysis capabilities.
+Fortify is a suite of software security products offered by MicroFocus. It provides a comprehensive solution for organizations to identify, manage, and remediate security risks in their software applications. Fortify integrates static code analysis, dynamic testing, and other security testing tools to provide a holistic view of an organization's application security posture.
 
-**Static analysis** is performed by scanning the source code of a program and identifying potential vulnerabilities without executing the code. Fortify provides a variety of static analysis tools, including the Fortify SCA (Software Composition Analysis) that can identify known vulnerabilities in third-party libraries and components, and the Fortify SAST (Static Application Security Testing) that can identify issues such as SQL injection and cross-site scripting.
+In the world of application security, Fortify fits in as a leading solution for software security testing and management. The platform helps organizations to identify and remediate security vulnerabilities early in the software development lifecycle, reducing the risk of a security breach. Fortify supports multiple programming languages, platforms, and applications, and is used by organizations of all sizes across various industries. The platform also provides a centralized management interface, allowing organizations to manage the entire application security process from a single location. Overall, Fortify provides organizations with a comprehensive, efficient, and effective solution for managing the security of their software applications.
 
-**Dynamic analysis**, on the other hand, involves executing the code and analyzing its behavior at runtime. Fortify provides dynamic analysis tools, such as ScanCentral DAST as WebInspect (Dynamic Application Security Testing) that can identify issues.
+## :fortify-cyberres: <span class="marquee">**Deployment Solutions**</span>
 
-## Deployment Solutions
-
-- **[Fortify OnPremise](solutions/onpremise_overview.md)** is installed and run on the customer's own infrastructure
+- **[Fortify OnPremise](solutions/onpremise_overview.md)** is installed and run on the customer's own infrastructure.
 
 - **[Fortify Hosted](solutions/hosted_overview.md)** is the cloud-hosted equivalent of Fortify OnPremise with the main difference being that the infrastructre, maintenance, upgrades, etc are managed entirely by MicroFocus.  
 
@@ -21,8 +19,4 @@ Microfocus **Fortify** is a comprehensive set of tools for software security tha
 Regardless of the deployment solution, Fortify is designed to help developers identify and fix vulnerabilities in their code, and offer a wide range of capabilities and features to support secure software development.
 
 
-## Next
-Use the navigation links on the left hand side for more information.
-
-See the [References](references.md) for official documentation that does deeper into the Fortify products and tools
 

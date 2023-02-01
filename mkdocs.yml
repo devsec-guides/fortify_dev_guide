@@ -20,7 +20,7 @@ theme:
         icon: material/brightness-4
         name: Switch to light mode
   features:
-    - announce.dismiss
+    #- announce.dismiss
     - content.code.annotate
     - content.code.copy
     - content.tabs.link
@@ -76,7 +76,7 @@ nav:
   #   - SCSAST: 'solutions/onpremise_overview.md'
   #   - SCDAST: 'solutions/scsast.md'
   #   - Fortify OnDemand: 'solutions/fod_overview.md'
-  - Tools: quickstart/index.md
+  - Quick-Start: quickstart/index.md
     # - Local Static Analysis: quick-start/sast-local.md
     # - Scan Central SAST: index.d
     # - IDE Integrations:
@@ -86,6 +86,22 @@ nav:
     #   - Jenkins: index.md
     #   - Github: index.md
     #   - Gitlab: index.md
+
+  # - Integrations: 
+  #   - Eclipse: 'ide/eclipse.md'
+  #   - IntelliJ: 'ide/intellij.md'
+  #   - VS Code: 'ide/vscode.md'
+  #   - Visual Studio: 'ide/visualstudio.md'
+  
+  # - CI/CD: 
+  #   - Gitlab: 'cicd/gitlab.md'
+  #   - Github: 'cicd/github.md'
+  #   - Jenkins: 'cicd/jenkins.md'
+  
+  # - BugTracking:
+  #   - Azure Devops: 'bugtracking/ado.md'
+  #   - GitLab Security Dashboard: 'bugtracking/gitlab.md'
+  #   - Jira: 'bugtracking/jira.md'
   
   - References: references.md
   - FAQ: faq.md

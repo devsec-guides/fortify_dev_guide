@@ -3,6 +3,25 @@
 This section will help you to get to speed on how to use the Fortify software both OnPremise and Fortify OnDemand.
 There are a number of different ways to scan that's because Fortify focusing on **Shift Everywhere** in order to meet your needs no matter your workflow.
 
+## :fortify-cyberres: <span class="marquee">**Fortify OnPremise**</span>
+---
+!!! info ""
+    **Fortify OnPremise** is customer managed solution and central 
+    platform.  
+    
+    **Software Security Center (SSC)** is that web portal that provides a complete solution for managing application security. It combines security assessments from Fortify Static Code Analyzer and other tools to give an overall view of your app security. It has features for managing security assessments, tracking fixes, and reporting, making it easier for security and development teams to work together to improve app security. The platform supports various types of security testing, including static, dynamic, mobile, API, and open-source testing.
+
+    [:material-card-account-details-star: Learn More](#){ .md-button }
+
+## :fortify-cyberres: <span class="marquee">**Fortify OnDemand**</span>
+---
+!!! info ""
+    **Fortify on Demand** is a SaaS based solution that is software security testing service and is vendor hosed and managed. Organizations can quickly and easily assess the security of their web applications, mobile applications, and APIs. 
+    
+    By using Fortify on Demand, organizations can identify potential security vulnerabilities and weaknesses in their software systems and prioritize remediation efforts based on risk severity. The service is designed to be fast, efficient, and cost-effective, and is hosted and maintained by the vendor.
+
+    [:material-card-account-details-star: Learn More](#){ .md-button }
+
 ## :octicons-codescan-16: <span class="marquee">**Static Analysis**</span>
 ---
 !!! info "Source Code Analyzer (SCA)"
@@ -51,22 +70,29 @@ There are a number of different ways to scan that's because Fortify focusing on 
 
     [:material-card-account-details-star: Learn More](#){ .md-button }
 
-## :material-circle-double: <span class="marquee">**IDE Integrations**</span>
+## :fontawesome-solid-laptop-code: <span class="marquee">**IDE Integrations**</span>
 ---
-[:material-android: Android Studio](#){ .md-button }
-[:simple-eclipseide: Eclipse](#){ .md-button }
-[:simple-intellijidea: IntelliJ](#){ .md-button }
+[:material-android: Android Studio](/ide/android){ .md-button }
+[:simple-eclipseide: Eclipse](/ide/eclipse){ .md-button }
+[:simple-intellijidea: IntelliJ](/ide/intellij){ .md-button }
 
 
-[:material-microsoft-visual-studio-code: VS Code](#){ .md-button }
-[:material-microsoft-visual-studio: Visual Studio](#){ .md-button }
+[:material-microsoft-visual-studio-code: VS Code](/ide/vscode){ .md-button }
+[:material-microsoft-visual-studio: Visual Studio](/ide/visualstudio){ .md-button }
 
 ## :material-circle-double: <span class="marquee">**CI/CD Integrations**</span>
 ---
 [:fontawesome-brands-aws: AWS](#){ .md-button }
 [:simple-azurepipelines: Azure DevOps](#){ .md-button }
-[:simple-github: Github](#){ .md-button }
+[:simple-github: Github](/cicd/github){ .md-button }
 
-[:simple-gitlab: Gitlab](#){ .md-button }
-[:simple-jenkins: Jenkins](#){ .md-button }
+[:simple-gitlab: Gitlab](/cicd/gitlab){ .md-button }
+[:simple-jenkins: Jenkins](/cicd/jenkins){ .md-button }
 [:fortify-cyberres: Fortify CI](#){ .md-button }
+
+## :fontawesome-solid-bug: <span class="marquee">**Bug Tracker Integration**</span>
+---
+[:simple-azurepipelines: Azure DevOps](#){ .md-button }
+[:simple-jira: Jira](#){ .md-button }
+[:simple-gitlab: GitLab](#){ .md-button }
+[:simple-github: Github](#){ .md-button }
