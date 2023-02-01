@@ -1,15 +1,9 @@
-# Quick Start
+# Product Overview
 
 This section will help you to get to speed on how to use the Fortify software both OnPremise and Fortify OnDemand.
 There are a number of different ways to scan that's because Fortify focusing on **Shift Everywhere** in order to meet your needs no matter your workflow.
 
-## :octicons-browser-16: <span class="marquee">**Software Security Center**</span>
----
-**SSC** is a centralized web interface that maintains scan results (SAST, DAST, OSS).  Developers and Security can utilize this portal to work together to find, fix, and remediate security vulnerabilities across the application stack. Customized templates and integration with Audit Assist allow for fine turning of scan results.  A robust API can be used to interact with the platform, including pulling vulnerability information.  
-
-[Learn More](#){ .md-button }
-
-## :octicons-codescan-16: <span class="marquee">**SAST Tools**</span>
+## :octicons-codescan-16: <span class="marquee">**Static Analysis**</span>
 ---
 !!! info "Source Code Analyzer (SCA)"
     The heart of static analysis.  Identifies insecure code allowing developers to quickly identify and remediation vulnerabilities in their source code.  Integrations and plugins are available for IDEs and CI/CD pipelines.  Deep customizations allows developers to fine tune scan results.  Support 26+ languages
@@ -32,7 +26,8 @@ There are a number of different ways to scan that's because Fortify focusing on 
     [:material-card-account-details-star: Learn More](#){ .md-button }
 
 
-## :material-web-refresh: <span class="marquee">**DAST Tools**</span>
+## :material-web-refresh: <span class="marquee">**Dynamic Analysis**</span>
+
 ---
 !!! info "WebInspect"
     Dynamic scanning solution for assessing web application vulnerabilities
@@ -49,19 +44,29 @@ There are a number of different ways to scan that's because Fortify focusing on 
 
     [:material-card-account-details-star: Learn More](#){ .md-button }
 
-## :material-source-repository: <span class="marquee">**Open Source**</span>
-
+## :material-source-repository: <span class="marquee">**Open Source Analyis**</span>
+---
 !!! info "Debricked"
-    Identifies vulnerabilites is 3rd party open source libraries.
+    Identifies vulnerabilites in 3rd party open source libraries.
 
     [:material-card-account-details-star: Learn More](#){ .md-button }
 
-## :material-circle-double: <span class="marquee">**CI/CD Integrations**</span>
+## :material-circle-double: <span class="marquee">**IDE Integrations**</span>
+---
+[:material-android: Android Studio](#){ .md-button }
+[:simple-eclipseide: Eclipse](#){ .md-button }
+[:simple-intellijidea: IntelliJ](#){ .md-button }
 
+
+[:material-microsoft-visual-studio-code: VS Code](#){ .md-button }
+[:material-microsoft-visual-studio: Visual Studio](#){ .md-button }
+
+## :material-circle-double: <span class="marquee">**CI/CD Integrations**</span>
+---
 [:fontawesome-brands-aws: AWS](#){ .md-button }
 [:simple-azurepipelines: Azure DevOps](#){ .md-button }
 [:simple-github: Github](#){ .md-button }
 
 [:simple-gitlab: Gitlab](#){ .md-button }
 [:simple-jenkins: Jenkins](#){ .md-button }
-[:simple-jenkins: Other](#){ .md-button }
+[:fortify-cyberres: Fortify CI](#){ .md-button }

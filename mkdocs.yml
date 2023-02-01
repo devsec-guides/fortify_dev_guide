@@ -77,7 +77,7 @@ nav:
   #   - SCDAST: 'solutions/scsast.md'
   #   - Fortify OnDemand: 'solutions/fod_overview.md'
 
-  - Quick Start:
+  - Product Overview:
     - quickstart/index.md
     - Local Static Analysis: quick-start/sast-local.md
     - Scan Central SAST: index.d
