@@ -1,60 +1,67 @@
 # Quick Start
 
 This section will help you to get to speed on how to use the Fortify software both OnPremise and Fortify OnDemand.
-There are a number of different ways to scan that's because Fortify focusing on **Shift Everyone** in order to meet your needs no matter your workflow.
+There are a number of different ways to scan that's because Fortify focusing on **Shift Everywhere** in order to meet your needs no matter your workflow.
 
-
-## **SAST Tools**
+## :octicons-browser-16: <span class="marquee">**Software Security Center**</span>
 ---
-!!! danger inline "Source Code Analyzer"
-    The heart of static analysis.  Identifies security vulnerabilities in source code. 
+**SSC** is a centralized web interface that maintains scan results (SAST, DAST, OSS).  Developers and Security can utilize this portal to work together to find, fix, and remediate security vulnerabilities across the application stack. Customized templates and integration with Audit Assist allow for fine turning of scan results.  A robust API can be used to interact with the platform, including pulling vulnerability information.  
 
-    [Learn More](#){ .md-button }
+[Learn More](#){ .md-button }
 
-!!! danger "Security Assistant"
+## :octicons-codescan-16: <span class="marquee">**SAST Tools**</span>
+---
+!!! info "Source Code Analyzer (SCA)"
+    The heart of static analysis.  Identifies insecure code allowing developers to quickly identify and remediation vulnerabilities in their source code.  Integrations and plugins are available for IDEs and CI/CD pipelines.  Deep customizations allows developers to fine tune scan results.  Support 26+ languages
+
+    [:material-card-account-details-star: Learn More](#){ .md-button }
+
+!!! info inline "Security Assistant"
     IDE Plugin that gives real time suggestions and code fixes related to security vulnerabilities.
 
-    [Learn More](#){ .md-button }
+    [:material-card-account-details-star: Learn More](#){ .md-button }
 
-!!! danger inline "Scan Central SAST"
-    Distributed SAST scanning solution that utilizes can use several dedicated machines that have SCA installed.  Offloads the working of scanning source code and uploading results to SSC
+!!! info "Scan Central SAST"
+    Distributed SAST scanning solution that can automated scanning by using dedicated machines that have SCA installed.  Offloads the working of scanning source code and uploading results to SSC
 
-    [Learn More](#){ .md-button }
+    [:material-card-account-details-star: Learn More](#){ .md-button }
 
-!!! danger "Audit Assistant (OnPremise)"
-    OnPremise version of Audit Assistant.  Utilizes machine learning to automate code reviews by identify false postives and true vulnerabilities for SAST
+!!! info "Audit Assistant"
+    Utilizes machine learning to automate code reviews by identify false postives and true vulnerabilities for SAST.  Available as an OnPremise installation as well as in SSC
 
-    [Learn More](#){ .md-button }
+    [:material-card-account-details-star: Learn More](#){ .md-button }
 
 
-## **DAST Tools**
+## :material-web-refresh: <span class="marquee">**DAST Tools**</span>
 ---
-!!! info inline "WebInspect"
+!!! info "WebInspect"
     Dynamic scanning solution for assessing web application vulnerabilities
 
-    [Learn More](#){ .md-button }
+    [:material-card-account-details-star: Learn More](#){ .md-button }
 
-!!! info "Fast Proxy"
+!!! info inline "Fast Proxy"
     Record functional tests for a web application or API that can be saved and used for future scanning
 
-    [Learn More](#){ .md-button }
+    [:material-card-account-details-star: Learn More](#){ .md-button }
 
 !!! info "Scan Central DAST"
     Orchestration for Dynamic scanning using distributed dast scanning machines
 
-    [Learn More](#){ .md-button }
+    [:material-card-account-details-star: Learn More](#){ .md-button }
 
-## **Open Source**  
+## :material-source-repository: <span class="marquee">**Open Source**</span>
 
 !!! info "Debricked"
     Identifies vulnerabilites is 3rd party open source libraries.
 
-    [Learn More](#){ .md-button }
+    [:material-card-account-details-star: Learn More](#){ .md-button }
 
-## **CI/CD Integrations**
+## :material-circle-double: <span class="marquee">**CI/CD Integrations**</span>
 
-[AWS](#){ .md-button }
-[Azure DevOps](#){ .md-button }
-[Github](#){ .md-button }
-[Gitlab](#){ .md-button }
-[Jenkins](#){ .md-button }
+[:fontawesome-brands-aws: AWS](#){ .md-button }
+[:simple-azurepipelines: Azure DevOps](#){ .md-button }
+[:simple-github: Github](#){ .md-button }
+
+[:simple-gitlab: Gitlab](#){ .md-button }
+[:simple-jenkins: Jenkins](#){ .md-button }
+[:simple-jenkins: Other](#){ .md-button }
