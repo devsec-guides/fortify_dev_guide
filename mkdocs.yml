@@ -77,7 +77,6 @@ nav:
   #   - SCDAST: 'solutions/scsast.md'
   #   - Fortify OnDemand: 'solutions/fod_overview.md'
   - Quick-Start:
-    - 'quickstart/index.md'
     - IDE Integrations: 'quickstart/ide.md'
     - CI/CD Integrations: 'quickstart/cicd.md'
     
