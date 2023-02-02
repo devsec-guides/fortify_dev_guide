@@ -5,7 +5,7 @@
 !!! warning ""
     Here you fill find helpful resources to get you up to speed on the suite of Fortify products and how you can use them to best fit your needs.
     
-!!! example inline "Training"
+!!! info inline "Training"
 
     :material-google-classroom: [Cyberres After Hours Training](https://community.microfocus.com/cyberres/fortify/fortify-education-after-hours/f/forum/509597/direct-one-click-quick-access-to-our-free-fortify-digital-learning-offerings/1902189){:target="_blank"}
 
@@ -21,7 +21,7 @@
 
     :fortify-cyberres: [Integrations](https://www.microfocus.com/en-us/cyberres/application-security/ecosystem)
 
-!!! abstract "Product Documentation"
+!!! info "Product Documentation"
     :material-file-document: [Software Security Center](https://www.microfocus.com/documentation/fortify-software-security-center/){:target="_blank"}
 
     :material-file-document: [Static Code Analyzer](https://www.microfocus.com/documentation/fortify-static-code/){:target="_blank"}
@@ -38,7 +38,7 @@
 !!! warning ""
     Fortify supports a number of integrations that allow developers and security engineers to incorporate security anywhere within their SDLC
 
-!!! tip inline "CI/CD"
+!!! info inline "CI/CD"
 
     :simple-azurepipelines: [Azure DevOps](https://www.microfocus.com/documentation/fortify-azure-devops-extension/){:target="_blank"}
 
@@ -52,8 +52,10 @@
 
     :simple-jenkins: [Jenkins - FOD](https://www.microfocus.com/documentation/fortify-on-demand-jenkins-plugin/){:target="_blank"}
 
+    :material-source-repository: [Fortify CLI](https://github.com/fortify-ps/fcli){:target="_blank"}
 
-!!! tip "IDE"
+
+!!! info "IDE"
 
     :simple-eclipseide: [Eclipse - Remediation Plugin](https://www.microfocus.com/documentation/fortify-remediation-plugin-for-eclipse/){:target="_blank"}
 
@@ -73,16 +75,17 @@
 !!! warning ""
     Below you will find repositories that can be used to help custom your workflow (very helpful for automation where native plugins may not currently be availalbe)
 
-!!! example "Repositories"
+!!! info "Repositories"
 
     :material-source-repository: [Tools Installer](https://github.com/fortify/FortifyToolsInstaller){:target="_blank"}
 
     :material-source-repository: [Fortify CLI](https://github.com/fortify-ps/fcli){:target="_blank"}
 
-    :material-source-repository: [Bug Tracker Utility](https://github.com/fortify-ps/FortifyBugTrackerUtility){:target="_blank"}
+    :material-source-repository: [Fortify Bug Tracker Utility](https://github.com/fortify-ps/FortifyBugTrackerUtility){:target="_blank"}
 
     :material-source-repository: [Vulnerability Exporter](https://github.com/fortify/FortifyVulnerabilityExporter){:target="_blank"}
 
     :material-source-repository: [Cloud DevSecOps Templates](https://github.com/fortify/CloudDevSecOpsTemplates){:target="_blank"}
 
     :material-source-repository: [Helm Charts](https://github.com/fortify/helm3-charts){:target="_blank"}
+    

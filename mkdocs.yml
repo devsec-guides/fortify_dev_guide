@@ -1,4 +1,6 @@
 site_name: Fortify DevOps Guide
+extra_css:
+  - stylesheets/extra.css
 theme:
   name: material
   custom_dir: overrides
@@ -18,9 +20,10 @@ theme:
         icon: material/brightness-4
         name: Switch to light mode
   features:
+    #- announce.dismiss
     - content.code.annotate
     - content.code.copy
-    - content.tabs.link
+    #- content.tabs.link
     - content.tooltips
     - navigation.footer
     - navigation.indexes
@@ -38,6 +41,8 @@ markdown_extensions:
   - md_in_html
   - pymdownx.details
   - pymdownx.inlinehilite
+  - pymdownx.tasklist:
+      custom_checkbox: true
   - pymdownx.snippets
   - pymdownx.superfences:
       custom_fences:
@@ -64,22 +69,28 @@ plugins:
   - search
 nav:
   - Home: index.md
-  - Solutions:
-    - solutions/index.md
-    - Fortfy OnPremise: 'solutions/onpremise_overview.md'
-    - Fortify OnDemand: 'solutions/fod_overview.md'
-  - Walkthroughs:
-    - IDE: 
-      - Eclipse: 'ide/eclipse.md'
-      - IntelliJ: 'ide/intellij.md'
-      - Visual Studio Code: 'ide/vscode.md'
-    - CI/CD: 
-      - Gitlab: 'cicd/gitlab.md'
-      - Github: 'cicd/github.md'
-      - Jenkins: 'cicd/jenkins.md'
-    - BugTracking:
-      - Azure Devops: 'bugtracking/ado.md'
-      - GitLab Security Dashboard: 'bugtracking/gitlab.md'
-      - Jira: 'bugtracking/jira.md'
+  # - Overview:
+  #   - solutions/index.md
+  #   - SSC: 'solutions/onpremise_overview.md'
+  #   - SCA: 'solutions/onpremise_overview.md'
+  #   - SCSAST: 'solutions/onpremise_overview.md'
+  #   - SCDAST: 'solutions/scsast.md'
+  #   - Fortify OnDemand: 'solutions/fod_overview.md'
+  - Quick-Start:
+    - 'quickstart/index.md'
+    - IDE Integrations: 'quickstart/ide.md'
+    - CI/CD Integrations: 'quickstart/cicd.md'
+    
+  
+  # - CI/CD: 
+  #   - Gitlab: 'cicd/gitlab.md'
+  #   - Github: 'cicd/github.md'
+  #   - Jenkins: 'cicd/jenkins.md'
+  
+  # - BugTracking:
+  #   - Azure Devops: 'bugtracking/ado.md'
+  #   - GitLab Security Dashboard: 'bugtracking/gitlab.md'
+  #   - Jira: 'bugtracking/jira.md'
+  
   - References: references.md
-  - FAQ: faq.md
+  # - FAQ: faq.md
