@@ -52,6 +52,8 @@
 
     :simple-jenkins: [Jenkins - FOD](https://www.microfocus.com/documentation/fortify-on-demand-jenkins-plugin/){:target="_blank"}
 
+    :material-source-repository: [Fortify CLI](https://github.com/fortify-ps/fcli){:target="_blank"}
+
 
 !!! info "IDE"
 
