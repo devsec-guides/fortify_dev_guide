@@ -69,27 +69,10 @@ plugins:
   - search
 nav:
   - Home: index.md
-  # - Overview:
-  #   - solutions/index.md
-  #   - SSC: 'solutions/onpremise_overview.md'
-  #   - SCA: 'solutions/onpremise_overview.md'
-  #   - SCSAST: 'solutions/onpremise_overview.md'
-  #   - SCDAST: 'solutions/scsast.md'
-  #   - Fortify OnDemand: 'solutions/fod_overview.md'
   - Quick-Start:
     - IDE Integrations: 'quickstart/ide.md'
     - CI/CD Integrations: 'quickstart/cicd.md'
     
-  
-  # - CI/CD: 
-  #   - Gitlab: 'cicd/gitlab.md'
-  #   - Github: 'cicd/github.md'
-  #   - Jenkins: 'cicd/jenkins.md'
-  
-  # - BugTracking:
-  #   - Azure Devops: 'bugtracking/ado.md'
-  #   - GitLab Security Dashboard: 'bugtracking/gitlab.md'
-  #   - Jira: 'bugtracking/jira.md'
   
   - References: references.md
   # - FAQ: faq.md
