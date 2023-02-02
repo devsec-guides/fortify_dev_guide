@@ -23,7 +23,7 @@ theme:
     #- announce.dismiss
     - content.code.annotate
     - content.code.copy
-    - content.tabs.link
+    #- content.tabs.link
     - content.tooltips
     - navigation.footer
     - navigation.indexes
@@ -76,22 +76,11 @@ nav:
   #   - SCSAST: 'solutions/onpremise_overview.md'
   #   - SCDAST: 'solutions/scsast.md'
   #   - Fortify OnDemand: 'solutions/fod_overview.md'
-  - Quick-Start: quickstart/index.md
-    # - Local Static Analysis: quick-start/sast-local.md
-    # - Scan Central SAST: index.d
-    # - IDE Integrations:
-    #   - Visual Studio Code: index.md
-    #   - IntelliJ: index.md
-    # - CI/CD Integrations: 
-    #   - Jenkins: index.md
-    #   - Github: index.md
-    #   - Gitlab: index.md
-
-  # - Integrations: 
-  #   - Eclipse: 'ide/eclipse.md'
-  #   - IntelliJ: 'ide/intellij.md'
-  #   - VS Code: 'ide/vscode.md'
-  #   - Visual Studio: 'ide/visualstudio.md'
+  - Quick-Start:
+    - 'quickstart/index.md'
+    - IDE Integrations: 'quickstart/ide.md'
+    - CI/CD Integrations: 'quickstart/cicd.md'
+    
   
   # - CI/CD: 
   #   - Gitlab: 'cicd/gitlab.md'
@@ -104,4 +93,4 @@ nav:
   #   - Jira: 'bugtracking/jira.md'
   
   - References: references.md
-  - FAQ: faq.md
+  # - FAQ: faq.md
