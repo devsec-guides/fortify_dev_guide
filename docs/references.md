@@ -44,7 +44,7 @@
 
     :material-github: [Github](https://github.com/marketplace?type=actions&query=fortify+){:target="_blank"}
 
-    :simple-gitlab: [Gitlab](){:target="_blank"}
+    :simple-gitlab: [Gitlab](https://gitlab.com/Fortify/gitlab-ci-templates){:target="_blank"}
 
     :simple-bamboo: [Bamboo](https://www.microfocus.com/documentation/fortify-plugin-for-bamboo/){:target="_blank"}
 
