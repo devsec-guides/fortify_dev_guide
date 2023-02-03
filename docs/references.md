@@ -67,7 +67,7 @@
 
     :material-microsoft-visual-studio: [Visual Studio Code](https://www.microfocus.com/documentation/fortify-visual-studio-code/){:target="_blank"}
 
-    :material-microsoft-visual-studio: [Visual Studio Code - Security Assistant](https://www.microfocus.com/documentation/fortify-security-assistant-plugin-for-visual-studio/){:target="_blank"}
+    :material-microsoft-visual-studio: [Visual Studio - Security Assistant](https://www.microfocus.com/documentation/fortify-security-assistant-plugin-for-visual-studio/){:target="_blank"}
 
 ---
 ## **Command Line Utilities**
