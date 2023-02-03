@@ -95,21 +95,21 @@ There are a number of different ways to scan that's because Fortify focusing on 
 
 ### :fontawesome-solid-laptop-code: <span class="marquee">**IDE Integrations**</span>
 
-[:simple-eclipseide: Eclipse](/ide/#eclipse){ .md-button }
-[:simple-intellijidea: IntelliJ](/ide/#intellij-and-android){ .md-button }
+[:simple-eclipseide: Eclipse](ide/#eclipse){ .md-button }
+[:simple-intellijidea: IntelliJ](ide/#intellij-and-android){ .md-button }
 
 
-[:material-microsoft-visual-studio-code: VS Code](/ide/#vs-code){ .md-button }
-[:material-microsoft-visual-studio: Visual Studio](/ide/#visual-studio){ .md-button }
+[:material-microsoft-visual-studio-code: VS Code](ide/#vs-code){ .md-button }
+[:material-microsoft-visual-studio: Visual Studio](ide/#visual-studio){ .md-button }
 
 ### :material-circle-double: <span class="marquee">**CI/CD Integrations**</span>
 
-[:simple-azurepipelines: Azure DevOps](/quickstart/cicd/#azuredevops){ .md-button }
-[:simple-github: Github](/quickstart/cicd/#github){ .md-button }
+[:simple-azurepipelines: Azure DevOps](quickstart/cicd/#azuredevops){ .md-button }
+[:simple-github: Github](quickstart/cicd/#github){ .md-button }
 
-[:simple-gitlab: Gitlab](/quickstart/cicd/#gitlab){ .md-button }
-[:simple-jenkins: Jenkins](/quickstart/cicd/#jenkins){ .md-button }
-[:fortify-cyberres: Fortify CI](/quickstart/cicd/#fortifyci){ .md-button }
+[:simple-gitlab: Gitlab](quickstart/cicd/#gitlab){ .md-button }
+[:simple-jenkins: Jenkins](quickstart/cicd/#jenkins){ .md-button }
+[:fortify-cyberres: Fortify CI](quickstart/cicd/#fortifyci){ .md-button }
 
 ### :fontawesome-solid-bug: <span class="marquee">**Bug Tracker Integration**</span>
 
