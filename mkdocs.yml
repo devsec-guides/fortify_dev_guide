@@ -6,6 +6,8 @@ extra_css:
 theme:
   name: material
   custom_dir: overrides
+  font:
+    text: Martel
   logo: assets/logo-fortify.png
   favicon: assets/logo-fortify.png
   palette:
