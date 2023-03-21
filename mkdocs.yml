@@ -12,20 +12,21 @@ theme:
   favicon: assets/logo-fortify.png
   palette:
     - scheme: default
-      primary: blue
+      primary: black
+      accent: blue
       toggle:
         icon: material/brightness-7 
         name: Switch to dark mode
 
     # Palette toggle for dark mode
     - scheme: slate
-      primary: yellow
-      accent: yellow
+      primary: black
+      accent: blue
       toggle:
         icon: material/brightness-4
         name: Switch to light mode
   features:
-    #- announce.dismiss
+    - announce.dismiss
     - content.code.annotate
     - content.code.copy
     - content.tabs.link
