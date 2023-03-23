@@ -109,3 +109,9 @@ h1{
     display:block;
     margin:auto;
 }
+
+.md-nav__item{
+    font-weight: 500;
+    font-family: 'Roboto';
+    font-size: 15pt;
+}
