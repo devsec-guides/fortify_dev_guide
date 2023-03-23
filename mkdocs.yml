@@ -1,6 +1,6 @@
 site_name: Fortify DevOps Guide
 base_url: /fortify-dev-guide
-repo_url: https://https://github.com/devsec-guides/fortify_dev_guide
+repo_url: https://github.com/devsec-guides/fortify_dev_guide
 extra_css:
   - stylesheets/extra.css
 theme:
