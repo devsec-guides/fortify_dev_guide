@@ -9,7 +9,8 @@
     :octicons-link-24:[Marketplace](https://marketplace.visualstudio.com/search?term=fortify&target=AzureDevOps&category=All%20categories&sortBy=Relevance){:target="_blank"}
 
 === "Training Videos"
-    ![type:video](https://www.youtube.com/embed/C1MOHwL4Ov0)
+    
+    <iframe class="vid" src="https://www.youtube.com/embed/C1MOHwL4Ov0" allowfullscreen/>
 
 ## :material-github: <span class="marquee">**Github**</span>
 ---
@@ -22,9 +23,7 @@
 
 === "Training Videos"
 
-    ![type:video](https://www.youtube.com/embed/e_bCa77vCNw)
-
-    ![type:video](https://www.youtube.com/embed/ZZGKi1tyo8s)
+    <iframe class="vid" src="https://www.youtube.com/embed/VIDEO_ID?playlist=e_bCa77vCNw,ZZGKi1tyo8s" allowfullscreen/>
 
 
 ## :material-gitlab: <span class="marquee">**Gitlab**</span>
@@ -36,7 +35,8 @@
     :octicons-link-24: [Gitlab Templates](https://gitlab.com/Fortify/gitlab-ci-templates){:target="_blank"}
 
 === "Training Videos"
-    ![type:video](https://www.youtube.com/embed/0gj69cpxnQ8)
+
+    <iframe class="vid" src="https://www.youtube.com/embed/0gj69cpxnQ8" allowfullscreen/>
 
 ## :simple-jenkins: <span class="marquee">**Jenkins Integration**</span>
 ---
@@ -49,7 +49,8 @@
     :octicons-link-24: [Jenkins Plugin](https://plugins.jenkins.io/fortify/)
 
 === "Training Video"
-    ![type:video](https://www.youtube.com/embed/zrTvd2qxOsg)
+
+    <iframe class="vid" src="https://www.youtube.com/embed/zrTvd2qxOsg" allowfullscreen/>
 
 ## :material-source-repository: <span class="marquee">**Fortify CI**</span>
 ---
@@ -59,6 +60,5 @@
     :fontawesome-solid-book-open-reader: [User Guide](https://github.com/fortify-ps/fcli){:target="_blank"}
 
 === "Training Videos"
-    ![type:video](https://www.youtube.com/embed/6-6ZGZbFHDw)
 
-    ![type:video](https://www.youtube.com/embed/7nUytfCmBAY)
+    <iframe class="vid" src="https://www.youtube.com/embed/VIDEO_ID?playlist=6-6ZGZbFHDw,7nUytfCmBAY" allowfullscreen/>

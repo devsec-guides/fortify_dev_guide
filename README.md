@@ -78,3 +78,20 @@ You can view those pages by running this application and navigation your browser
 You can copy `docs/slides/template.html` and `docs/slides/template.md` to get started it your own slides.
 
 More more info an how to work with Reveal.js see the [official documentation](https://revealjs.com/)
+
+## Adding Videos from Youtube
+
+Youtube videos can be embedded within an iframe with the class of "vid"
+
+Add a single video. 
+Add the video ID after `/embed/`
+
+```
+<iframe class="vid" src="https://www.youtube.com/embed/VIDEO_ID" allowfullscreen/>
+```
+Add multiple videos to an unamed playlist
+After `playlist` add the video ids
+
+```
+<iframe class="vid" src="https://www.youtube.com/embed/VIDEO_ID?playlist=vidID_1,vidID_2,vidID_3" allowfullscreen/>
+```

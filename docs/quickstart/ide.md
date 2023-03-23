@@ -18,7 +18,8 @@
     [User Guide](https://www.microfocus.com/documentation/fortify-static-code-analyzer-and-tools/2220/Eclipse_Plugin_Help_22.2.0/index.htm)
 
 === "Training Videos"
-    ![type:video](https://www.youtube.com/embed/W4Stp4JseZY)
+
+    <iframe class="vid" src="https://www.youtube.com/embed/W4Stp4JseZY" allowfullscreen/>
 
 ## :simple-intellijidea: <span class="marquee">**Intellij and Android**</span>
 ---
@@ -31,11 +32,8 @@
     :fontawesome-solid-book-open-reader: [User Guide - Security Assistant](https://www.microfocus.com/documentation/fortify-security-assistant-plugin-for-intelliJ/){:target="_blank"}
 
 === "Training Videos"
-    ![type:video](https://www.youtube.com/embed/bKeC-06qPyk)
 
-    ![type:video](https://www.youtube.com/embed/yXTcpadIxwA)
-
-    ![type:video](https://www.youtube.com/embed/Zb82zvb_GCM)
+    <iframe class="vid" src="https://www.youtube.com/embed/VIDEO_ID?playlist=bKeC-06qPyk,yXTcpadIxwA,Zb82zvb_GCM" allowfullscreen/>
 
 ## :material-microsoft-visual-studio: <span class="marquee">**VS Code**</span>
 
@@ -54,9 +52,8 @@
     Select View > Command Palette and type “fortify"
 
 === "Training Videos"
-    ![type:video](https://www.youtube.com/embed/VT50NDI6SnA)
 
-    ![type:video](https://www.youtube.com/embed/6O_kN02pPrU)
+    <iframe class="vid" src="https://www.youtube.com/embed/VIDEO_ID?playlist=VT50NDI6SnA,6O_kN02pPrU" allowfullscreen/>
 
 ## :material-microsoft-visual-studio: <span class="marquee">**Visual Studio**</span>
 
@@ -70,4 +67,5 @@
     :material-power-plug-outline: [FOD Extension](https://marketplace.visualstudio.com/items?itemName=fortifyvsts.HPESecurityFortifyonDemandExtension-18282){:target="_blank"}
 
 === "Training Videos"
-    ![type:video](https://www.youtube.com/embed/vUjOgqFtoOo)
+
+    <iframe class="vid" src="https://www.youtube.com/embed/vUjOgqFtoOo" allowfullscreen/>
