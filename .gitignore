@@ -21,6 +21,7 @@ node_modules/
 parts/
 sdist/
 var/
+package*.json
 *.egg-info/
 .installed.cfg
 *.egg
