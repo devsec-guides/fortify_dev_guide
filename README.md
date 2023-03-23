@@ -59,7 +59,11 @@ python -m mkdocs server -a ip:port --live-reload=false
 ## Slide Presentations
 The ability to create presentations is made available though the Reveal.js libraries.
 
-Within the `docs/slides/` directory there is are `.html` and .`md` files that share the same name.
+Within the `docs/slides/` directory there is are `.html` and .`md` files that share the same prefix.
+
+Example:
+- demo_slide.html (full page slide presenation)
+- demo.md (iframe of the slide presentation)
 
 The markdown files are used to show slides within an iframe while maintaing the navigation of the overall site.
 
