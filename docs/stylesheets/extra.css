@@ -98,3 +98,14 @@ h1{
 {
     max-width: 90%;
 }
+
+.tabbed-content{
+    margin:auto;
+}
+
+.vid{
+    width:60%; 
+    height:600px;
+    display:block;
+    margin:auto;
+}

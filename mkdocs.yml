@@ -7,7 +7,7 @@ theme:
   name: material
   custom_dir: overrides
   font:
-    text: Martel
+    text: Poppins
   logo: assets/cyberres-opentext.png
   favicon: assets/logo-fortify.png
   palette:
