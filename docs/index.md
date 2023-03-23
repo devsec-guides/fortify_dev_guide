@@ -1,9 +1,10 @@
 # Fortify DevOps Guide
+<hr/>
 
 This guide is meant to provide guidance and demonstrations on how to use the Fortify software in a developer environment.
 
 ## Fortify Overview
-!!! note ""
+
 
 ### :fortify-cyberres: <span class="marquee">**What is Fortify**</span>
 
@@ -21,7 +22,6 @@ Regardless of the deployment solution, Fortify is designed to help developers id
 
 
 ## Product Overview
-!!! note ""
 
 This section will help you to get to speed on how to use the Fortify software both OnPremise and Fortify OnDemand.
 There are a number of different ways to scan that's because Fortify focusing on **Shift Everywhere** in order to meet your needs no matter your workflow.

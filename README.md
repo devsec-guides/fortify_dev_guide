@@ -35,7 +35,9 @@ python -m virtualenv .env
 
 ```
 ## Installing
+```
 python -m pip install -r requirements.txt
+```
 
 ## Running the application
 
@@ -54,3 +56,21 @@ The following syntax specifies the IP address, port, and disables live reloading
 python -m mkdocs server -a ip:port --live-reload=false
 ```
 
+## Slide Presentations
+The ability to create presentations is made available though the Reveal.js libraries.
+
+Within the `docs/slides/` directory there is are `.html` and .`md` files that share the same name.
+
+The markdown files are used to show slides within an iframe while maintaing the navigation of the overall site.
+
+The html files are the raw presentations that are viewed in full screen.
+
+Recommend taking a look at `docs/slides/demo.html` and `docs/slides/demo.d` to see how these are implemented.
+
+You can view those pages by running this application and navigation your browser to the urls below to see the slides
+- http://localhost:8000/slides/demo/
+- http://localhost:8000/slides/demo.html
+
+You can copy `docs/slides/template.html` and `docs/slides/template.md` to get started it your own slides.
+
+More more info an how to work with Reveal.js see the [official documentation](https://revealjs.com/)

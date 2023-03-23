@@ -23,34 +23,18 @@
     border-radius: 2em;
 }
 
-.marquee {
+/* .marquee {
     color: red;
-}
+} */
 
-
-.admonition.info  {
-    box-shadow: 2px 2px 5px rgb(5, 5, 5);
-    
-}
-
-.admonition.example  {
-    box-shadow: 2px 2px 5px rgb(5, 5, 5);
-    
-}
-
-.admonition.abstract  {
-    box-shadow: 2px 2px 5px rgb(5, 5, 5);
-    
-}
-
-.admonition.tip  {
-    box-shadow: 2px 2px 5px rgb(5, 5, 5);
-    
-}
 
 .md-button {
     background-color: white;
     border-radius: 5px;
+}
+
+[data-md-color-scheme="slate"] .md-button {
+    background-color: rgba(255, 255, 255, 0.1);
 }
 
 [data-md-color-scheme="slate"] .marquee {
@@ -67,10 +51,26 @@
     background-color: rgba(255, 255, 255, 0.1);
 }
 
-[data-md-color-scheme="slate"] .md-typeset .video>.admonition-title::before,
-[data-md-color-scheme="slate"] .md-typeset .video>summary::before {
-    background-color: rgb(41, 189, 243);
-    -webkit-mask-image: var(--md-admonition-icon--video);
-    mask-image: var(--md-admonition-icon--video);
+
+[data-md-color-scheme="slate"] .md-typeset .admonition.info{
+    background-color: rgba(255, 255, 255, 0);
+
+    border-color:yellow
 }
 
+.md-main__inner{
+    min-width:90%;
+}
+
+
+
+.md-content{
+    border-left: 1px solid rgb(75, 73, 73); /* sets a 1px solid black border on the left side of the element */
+    border-right: 1px solid rgb(75, 73, 73); /* sets a 1px solid black border on the right side of the element */
+}
+
+.md-typeset hr {
+    border-bottom: 0.5rem solid var(--md-default-fg-color--lightest);
+    display: flow-root;
+    margin: 1.5em 0;
+}
