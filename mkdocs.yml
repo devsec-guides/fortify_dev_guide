@@ -8,7 +8,7 @@ theme:
   custom_dir: overrides
   font:
     text: Martel
-  logo: assets/logo-fortify.png
+  logo: assets/cyberres-opentext.png
   favicon: assets/logo-fortify.png
   palette:
     - scheme: default
